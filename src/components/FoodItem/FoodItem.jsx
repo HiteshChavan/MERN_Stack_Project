@@ -5,6 +5,7 @@ import { StoreContext } from '../../Context/StoreContext';
 
 const FoodItem = ({ image, name, price, desc , id }) => {
 
+    //trying to create a new branch
     const [itemCount, setItemCount] = useState(0);
     const {cartItems,addToCart,removeFromCart,url} = useContext(StoreContext);
 
